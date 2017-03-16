@@ -1,0 +1,40 @@
+body {
+	color: $color-text;
+	font-family: $fontFamily;
+	font-size: rem(14px);
+	line-height: $line-height;
+}
+
+.title,
+.headline,
+.subHeadline {
+	color: $headlines-color;
+	font-weight: 400;
+	margin: 0;
+}
+
+.title {
+	font-size: $fontSize-title;
+	margin-bottom: $baseline;
+}
+
+.headline {
+	font-size: $fontSize-headline;
+	margin-bottom: $baseline;
+}
+
+.subHeadline {
+	font-size: $fontSize-subHeadline;
+}
+
+.textHighlight {
+	background: lighten($color-primary, 40%);
+	padding: 0 $gutter/2;
+	border-radius: $borderRadius;
+}
+
+.fancyLabel {
+	font-size: rem(12px);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
