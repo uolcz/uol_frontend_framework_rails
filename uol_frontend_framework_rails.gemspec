@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.bindir        = "exe"
   spec.require_paths = ["lib"]
-  # spec.files = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
+  spec.files = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
 
   spec.add_dependency 'railties'
   spec.add_development_dependency "bundler", "~> 1.13"
